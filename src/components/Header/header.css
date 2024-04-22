@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px 10px 40px;
+  margin: 30px;
+  align-items: center;
+}
+
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#header-logo h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-family: Homenaje;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.header-logo {
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+.bg-logo-rt {
+  background-color: white;
+  color: black;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.bg-logo-ccr {
+  padding-right: 10px;
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+  display: flex;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.drop-down a {
+  pointer-events: none;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
+  padding: 10px;
+}
+
+.navbar ul {
+  font-size: 1.2rem;
+  list-style: none;
+  padding-right: 100px;
+  gap: 25px;
+  font-family: poppins;
+}
+
+nav ul li a:hover {
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 400;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685);
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px 10px;
+}

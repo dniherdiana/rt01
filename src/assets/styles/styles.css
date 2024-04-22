@@ -1,0 +1,20 @@
+@import url('/src/components/Header/header.css');
+@import url('/src/components/Footer/footer.css');
+@import url('/src//pages//Beranda/beranda.css');
+@import url('/src/pages/Galeri/galeri.css');
+@import url('/src/pages/StrukturOrganisasi/strukturOrganisasi.css');
+@import url('/src/pages/DataWarga/data-warga.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:
+    linear-gradient(180deg in oklab,
+      oklch(70% 0.5 258) 0% 13%, oklch(90% 0.5 200) 85% 49%);
+  height: 100vh;
+  margin: 0;
+}
