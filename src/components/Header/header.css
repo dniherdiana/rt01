@@ -100,29 +100,34 @@ nav li a:hover {
 @media only screen and (max-width: 600px) {
 
   header {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     /* justify-content: center; */
     background-color: rgba(0, 0, 0, 0.767);
-    min-width: 300px;
+    min-width: 600px;
   }
 
   .header {
     margin: 0 auto
   }
 
-  ul li {
-    font-size: .8rem;
+  .navbar ul {
+    padding-right: 100px;
+  }
 
+  ul li {
+    font-size: .9rem;
+    margin: 10px;
   }
 
   #header-logo h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    margin-right: 100px;
   }
 
   ul {
     align-items: center;
     /* text-align: center; */
-    padding: 10px;
+    /* margin: 20px; */
   }
 }
