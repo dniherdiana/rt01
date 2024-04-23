@@ -17,12 +17,12 @@
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .content p {
   padding: 10px 20px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: black;
   font-weight: 400;
   font-family: poppins;

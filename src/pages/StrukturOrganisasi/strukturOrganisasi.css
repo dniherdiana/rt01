@@ -1,8 +1,8 @@
 .struktur-organisasi h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 160px 0 50px 0;
-  font-size: 3.5rem;
+  padding: 150px 0 25px 0;
+  font-size: 2.7rem;
   text-shadow: 2px 2px 2px #000000;
   font-family: Homenaje;
   font-weight: 300;
@@ -10,16 +10,17 @@
 
 .struktur-container {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .struktur-pp-rt {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .struktur-pp-rt img {
-  height: 155px;
-  width: 155px;
+  height: 145px;
+  width: 145px;
   border-radius: 50%;
   /* box shadow*/
   box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
@@ -34,8 +35,8 @@
 
 .struktur-pp-wakil img {
   border-radius: 50%;
-  height: 155px;
-  width: 155px;
+  height: 145px;
+  width: 145px;
   /* box shadow */
   box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
@@ -43,7 +44,7 @@
 }
 
 .pp-detail p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 2px 0;
   font-family: poppins;
   font-weight: 500;
@@ -51,7 +52,7 @@
 }
 
 .pp-detail h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: Uchen;
   margin-bottom: -12px;
   font-weight: 500;
@@ -60,15 +61,14 @@
 
 #role-name-bg {
   border: 2px solid rgb(255, 255, 255);
-  width: 170px;
-  height: 75px;
+  width: 150px;
+  height: 65px;
   margin: 10px auto;
   border-radius: 5px;
 }
 
 .role-bg {
   background-color: white;
-  /* margin: 5px 10px; */
 }
 
 .name-bg {
@@ -81,12 +81,12 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .wa-detail img {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   margin: 5px;
 }
 
@@ -100,6 +100,8 @@
   border-radius: 10px;
   font-size: .80rem;
   font-family: poppins;
+  height: 30px;
+  width: 150px;
 }
 
 .cvw-bg:hover {

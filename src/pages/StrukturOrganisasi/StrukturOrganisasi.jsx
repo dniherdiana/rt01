@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import "./strukturOrganisasi.css";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import ProfilePic from "../../assets/images/profile-pic.webp";
 import WaIcon from "../../assets/images/icons8-whatsapp.svg";
 
@@ -34,7 +35,7 @@ export default function StrukturOrganisasi(props) {
           <a href={`https://wa.me/${item.phone}`}>
             <span className="cvw-bg">
               <img src={WaIcon} alt="WhatsApp" />
-              Chat via Whatsapp
+              Whatsapp
             </span>
           </a>
         </div>
@@ -51,6 +52,7 @@ export default function StrukturOrganisasi(props) {
         <h1>Struktur Organisasi</h1>
       </div>
       <div className="struktur-container">{listPos}</div>
+      <Footer />
     </>
   );
 }

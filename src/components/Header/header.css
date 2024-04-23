@@ -16,7 +16,7 @@
 
 #header-logo h1 {
   color: rgb(255, 255, 255);
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-family: Homenaje;
   font-weight: 500;
   letter-spacing: -1px;
@@ -60,7 +60,7 @@ nav ul {
 
 .dropdown-content a {
   color: black;
-  padding: 5px;
+  padding: 5px 500px;
   margin: 5px;
   text-decoration: none;
 }
@@ -75,14 +75,14 @@ nav ul {
 }
 
 .navbar ul {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   list-style: none;
   padding-right: 100px;
   gap: 25px;
   font-family: poppins;
 }
 
-nav ul li a:hover {
+nav li a:hover {
   color: black;
   border-radius: 5px;
   background-color: white;
@@ -94,4 +94,15 @@ nav ul li a:hover {
   text-decoration: none;
   color: whitesmoke;
   padding: 5px 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    min-width: 600px;
+  }
 }

@@ -1,32 +1,23 @@
 footer {
-  /* text-align: center; */
-  /* font-size: 1.5rem; */
-  /* padding: 10px; */
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: poppins;
-  /* text-shadow: 2px 2px 2px #00000056; */
-  /* background-color: white; */
   width: fit-content;
   margin: auto;
-  /* border: 2px solid rgb(0, 0, 0); */
-  /* border-radius: 5px; */
-  padding: 20px;
+  padding: 50px;
 }
 
 #footer-style {
   border: 2px solid black;
-  height: 40px;
+  /* height: 40px; */
+  height: fit-content;
   align-content: center;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .design-text {
-  background: rgba(255, 255, 255, 0.596);
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3.7px);
-  -webkit-backdrop-filter: blur(3.7px);
-  padding: 3px 10px;
+  background: rgba(255, 255, 255, 0.705);
+  padding: 0 10px;
   font-style: italic;
   letter-spacing: -1px;
 }
@@ -38,7 +29,7 @@ footer {
 .footer-text {
   background-color: black;
   color: white;
-  padding: 4px 8px;
+  padding: 1px 8px;
   font-weight: 400;
-  border-radius: 50x;
+  /* border-radius: 4px 0 0 4px; */
 }
