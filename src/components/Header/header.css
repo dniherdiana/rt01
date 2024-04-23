@@ -87,7 +87,7 @@ nav li a:hover {
   border-radius: 5px;
   background-color: white;
   font-weight: 400;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685);
+  /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685); */
 }
 
 .navbar ul a {

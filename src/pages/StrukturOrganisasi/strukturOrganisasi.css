@@ -44,24 +44,24 @@
 }
 
 .pp-detail p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 2px 0;
   font-family: poppins;
-  font-weight: 500;
+  font-weight: 400;
   text-shadow: 3px 2px 2px rgb(255, 255, 255);
 }
 
 .pp-detail h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: Uchen;
   margin-bottom: -12px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -1px;
 }
 
 #role-name-bg {
   border: 2px solid rgb(255, 255, 255);
-  width: 150px;
+  width: 140px;
   height: 65px;
   margin: 10px auto;
   border-radius: 5px;
@@ -101,7 +101,7 @@
   font-size: .80rem;
   font-family: poppins;
   height: 30px;
-  width: 150px;
+  width: 140px;
 }
 
 .cvw-bg:hover {
