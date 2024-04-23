@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 130px 10px 40px;
   margin: 30px;
   align-items: center;
 }
@@ -77,7 +77,7 @@ nav ul {
 .navbar ul {
   font-size: 1.1rem;
   list-style: none;
-  padding-right: 100px;
+  /* padding-right: 100px; */
   gap: 25px;
   font-family: poppins;
 }
@@ -122,7 +122,7 @@ nav li a:hover {
 
   ul {
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
   }
 }
