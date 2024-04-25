@@ -108,3 +108,18 @@
   color: white;
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.664);
 }
+
+
+@media screen and (max-width: 880px) {
+  .struktur-pp-rt {
+    padding: 25px 0;
+  }
+
+  .struktur-pp-wakil {
+    padding: 20px 50px;
+  }
+
+  .pp-detail {
+    margin: -8px;
+  }
+}
