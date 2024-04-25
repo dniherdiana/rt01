@@ -1,0 +1,99 @@
+#header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 25px 0;
+  /* sticky position */
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* sticky position */
+}
+
+#header-logo h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
+  font-family: Homenaje;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.header-logo {
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+.bg-logo-rt {
+  background-color: white;
+  color: black;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.bg-logo-ccr {
+  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
+  padding: 0 10px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.navbar a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-family: poppins;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.dropdown {
+  height: 120px;
+  width: 190px;
+}
+
+.dropdown-content {
+  display: none;
+  position: block;
+  background-color: transparent;
+  z-index: 1;
+  min-width: 160px;
+}
+
+.drop-down a {
+  pointer-events: none;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  /* display: block;
+  font-size: 1rem;
+  width: 180px;
+  font-family: poppins;
+  text-align: center; */
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  /* font-weight: 500;
+  border-radius: 5px; */
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}

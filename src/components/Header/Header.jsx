@@ -5,7 +5,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <header id="header" className="header header-sticky">
+    <header id="header" className="">
       <div id="header-logo">
         <h1 className="header-logo">
           <span className="bg-logo-rt">RT001</span>{" "}
