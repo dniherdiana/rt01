@@ -48,10 +48,12 @@ export default function StrukturOrganisasi(props) {
   return (
     <>
       <Header />
-      <div className="struktur-organisasi">
-        <h1>Struktur Organisasi</h1>
+      <div className="struktur-organisasi-content">
+        <div className="struktur-organisasi">
+          <h1>Struktur Organisasi</h1>
+        </div>
+        <div className="struktur-container">{listPos}</div>
       </div>
-      <div className="struktur-container">{listPos}</div>
       <Footer />
     </>
   );

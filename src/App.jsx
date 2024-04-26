@@ -21,7 +21,7 @@ export default function App() {
       className: "struktur-pp-wakil",
       role: "Bendahara",
       name: "Deni Herdiana",
-      phone: 6282124387146,
+      phone: +6282124387146,
     },
     {
       className: "struktur-pp-wakil",
