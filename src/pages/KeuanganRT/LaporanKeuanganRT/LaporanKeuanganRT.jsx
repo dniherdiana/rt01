@@ -1,9 +1,7 @@
 import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
 import "./laporanKeuanganRT.css";
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-// import Spinner from 'react-spinkit';
 
 export default function LaporanKeuanganRT() {
   const [iframeLoaded, setIframeLoaded] = useState(false);
@@ -20,13 +18,13 @@ export default function LaporanKeuanganRT() {
           <h1>Laporan Keuangan RT</h1>
 
           <div className="laporan-keuangan">
-            {/* {!iframeLoaded && <Spinner name="three-bounce" color="blue" />} */}
             {!iframeLoaded && (
               <p
                 style={{
-                  fontSize: "2.5rem",
+                  fontSize: "1.5rem",
                   color: "whitesmoke",
                   padding: "250px 0",
+                  color: "black",
                 }}
               >
                 Loading data...

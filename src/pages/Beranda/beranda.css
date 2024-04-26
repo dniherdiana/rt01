@@ -1,8 +1,9 @@
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: 0 auto;
+  /* min-height: 100vh; */
+  height: 100vh;
+  /* margin: 0 auto; */
 }
 
 .beranda {
@@ -22,6 +23,7 @@
 
 .content p {
   padding: 10px 20px;
+  margin: 25px;
   font-size: 1.2rem;
   color: black;
   font-weight: 400;
@@ -47,7 +49,8 @@
   box-shadow: -7px -6px 12px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -7px -6px 12px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -7px -6px 12px 0px rgba(0, 0, 0, 0.75);
-  text-align: left;
+  /* gradient-background */
+  /* text-align: left; */
   padding: 10px;
   margin: 10px;
   z-index: 1;
@@ -81,16 +84,33 @@
   -moz-box-shadow: -8px -6px 5px 0px rgba(0, 0, 0, 0.35) inset;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
+
+  .container {
+    /* height: 160vh; */
+    /* align-items: center; */
+    overflow: auto;
+    max-height: 100%;
+  }
+
+  .beranda {
+    padding: 0 auto;
+    /* height: 100%; */
+    /* padding: 20px; */
+  }
+
   .card-beranda {
-    width: 90%;
+    width: 100%;
     /* Adjust width to fit smaller screens */
     border-radius: 20px;
     /* Remove specific border-radius */
-    top: 0;
+    /* top: 0; */
     /* Remove top position */
     left: 0;
     /* Remove left position */
+    align-content: center;
+    /* overflow: hidden; */
+    /* height: 100%; */
   }
 
   .card-beranda-outer {
