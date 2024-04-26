@@ -22,7 +22,13 @@ export default function LaporanKeuanganRT() {
           <div className="laporan-keuangan">
             {/* {!iframeLoaded && <Spinner name="three-bounce" color="blue" />} */}
             {!iframeLoaded && (
-              <p style={{ fontSize: "2.5rem", color: "whitesmoke" }}>
+              <p
+                style={{
+                  fontSize: "2.5rem",
+                  color: "whitesmoke",
+                  padding: "250px 0",
+                }}
+              >
                 Loading data...
               </p>
             )}
@@ -37,7 +43,6 @@ export default function LaporanKeuanganRT() {
                   justifyContent: "center",
                   alignItems: "center",
                   margin: "0 auto",
-                  // minHeight: "50vh",
                 },
                 display: iframeLoaded ? "flex" : "none",
               }}
