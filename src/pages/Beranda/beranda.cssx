@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  height: 100vh;
+  /* margin: 0 auto; */
+}
+
+.beranda {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.content p {
+  padding: 10px 20px;
+  margin: 25px;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 400;
+  font-family: poppins;
+}
+
+.pengurus {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.card-beranda {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  /* gradient-background */
+  background-image:
+    linear-gradient(360deg in oklab,
+      oklch(70% 0.5 258) 0% 13%, oklch(90% 0.5 200) 85% 49%);
+  /* box-shadow */
+  box-shadow: -7px -6px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -7px -6px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px -6px 12px 0px rgba(0, 0, 0, 0.75);
+  /* gradient-background */
+  /* text-align: left; */
+  padding: 10px;
+  margin: 10px;
+  z-index: 1;
+  height: 520px;
+  width: 700px;
+  border-radius: 0 20px 20px 0;
+}
+
+.card-beranda-outer {
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 680px;
+  z-index: -1;
+  position: relative;
+  border-radius: 20px 0 0 20px;
+}
+
+.card-beranda-outer1 {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 430px;
+  width: 600px;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+  padding: 20px;
+  margin: 10px;
+  /* box-shadow */
+  box-shadow: -8px -6px 5px 0px rgba(0, 0, 0, 0.35) inset;
+  -webkit-box-shadow: -8px -6px 5px 0px rgba(0, 0, 0, 0.35) inset;
+  -moz-box-shadow: -8px -6px 5px 0px rgba(0, 0, 0, 0.35) inset;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .container {
+    /* height: 160vh; */
+    /* align-items: center; */
+    overflow: auto;
+    max-height: 100%;
+  }
+
+  .beranda {
+    padding: 0 auto;
+    /* height: 100%; */
+    /* padding: 20px; */
+  }
+
+  .card-beranda {
+    width: 100%;
+    /* Adjust width to fit smaller screens */
+    border-radius: 20px;
+    /* Remove specific border-radius */
+    /* top: 0; */
+    /* Remove top position */
+    left: 0;
+    /* Remove left position */
+    align-content: center;
+    /* overflow: hidden; */
+    /* height: 100%; */
+  }
+
+  .card-beranda-outer {
+    width: 90%;
+    /* Adjust width to fit smaller screens */
+    border-radius: 20px;
+    /* Remove specific border-radius */
+  }
+
+  .card-beranda-outer1 {
+    width: 90%;
+    /* Adjust width to fit smaller screens */
+    border-radius: 20px;
+    /* Remove specific border-radius */
+    top: 0;
+    /* Remove top position */
+    left: 0;
+    /* Remove left position */
+    padding: 10px;
+    /* Adjust padding for smaller screens */
+  }
+}

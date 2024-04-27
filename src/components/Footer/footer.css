@@ -1,13 +1,11 @@
 footer {
   font-size: 1.2rem;
   font-family: poppins;
-  margin: auto;
-  padding: 50px;
+  font-weight: 300;
 }
 
 #footer-style {
   border: 2px solid black;
-  align-content: center;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -32,8 +30,6 @@ footer {
 
 @media (max-width: 767px) {
   footer {
-    width: 100%;
-    font-size: .9rem;
-    padding: 45px 32px;
+    font-size: 1rem;
   }
 }

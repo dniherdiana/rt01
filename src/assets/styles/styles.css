@@ -16,6 +16,6 @@ body {
     linear-gradient(180deg in oklab,
       oklch(70% 0.5 258) 0% 13%, oklch(90% 0.5 200) 85% 49%);
   background-repeat: no-repeat;
-  height: fit-content;
-  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
 }

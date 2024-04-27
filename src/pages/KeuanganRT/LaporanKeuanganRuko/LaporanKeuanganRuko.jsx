@@ -21,7 +21,6 @@ export default function LaporanKeuanganRuko() {
               <p
                 style={{
                   fontSize: "1.5rem",
-                  color: "whitesmoke",
                   padding: "250px 0",
                   color: "black",
                 }}
