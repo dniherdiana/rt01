@@ -5,7 +5,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <header id="header" className="">
+    <header id="header" className="header-sticky">
       <div id="header-logo">
         <h1 className="header-logo">
           <span className="bg-logo-rt">RT001</span>{" "}
@@ -22,14 +22,18 @@ export default function Header() {
             <div className="dropdown">
               <Link to="#">Laporan Keuangan</Link>
               <div className="dropdown-content">
-                <Link to={"/LaporanKeuanganRT"}>Laporan Keuangan RT</Link>
-                <Link to={"/LaporanKeuanganRuko"}>Laporan Keuangan Ruko</Link>
+                <div className="dropdown-position-rt">
+                  <Link to={"/LaporanKeuanganRT"}>Laporan Keuangan RT</Link>
+                </div>
+                <div className="dropdown-position-ruko">
+                  <Link to={"/LaporanKeuanganRuko"}>Laporan Keuangan Ruko</Link>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div className="dropdown">
-              <Link to="/">Informasi</Link>
+              <Link to="#">Informasi</Link>
               <div className="dropdown-content">
                 <Link to={"/StrukturOrganisasi"}>Struktur Organisasi</Link>
                 <Link to="/DataWarga">Data Warga RT01</Link>

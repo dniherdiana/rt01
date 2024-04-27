@@ -48,7 +48,7 @@ export default function StrukturOrganisasi(props) {
   return (
     <>
       <Header />
-      <div /* className="struktur-organisasi-content" */>
+      <div className="struktur-content">
         <div className="struktur-organisasi">
           <h1>Struktur Organisasi</h1>
         </div>
