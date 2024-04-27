@@ -34,7 +34,7 @@
 
 .struktur-pp-wakil {
   display: inline-block;
-  padding: 0 50px;
+  padding: 10px 50px;
 }
 
 .struktur-pp-wakil img {
@@ -117,7 +117,7 @@
 /* @media screen and (max-width: 880px) */
 @media screen and (min-width: 768px) {
 
-  .struktur-pp-rt {
+  /* .struktur-pp-rt {
     padding-top: 15px;
     padding-bottom: 20px;
   }
@@ -127,6 +127,6 @@
   }
 
   .pp-detail {
-    margin: -8px;
-  }
+    margin: 8px;
+  } */
 }
