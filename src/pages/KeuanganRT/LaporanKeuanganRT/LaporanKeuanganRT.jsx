@@ -29,21 +29,64 @@ export default function LaporanKeuanganRT() {
                 Loading data...
               </p>
             )}
-            <iframe
-              width="800"
-              height="600"
-              src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211379&authkey=%21AJmejev2rui9S80&em=2&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"
-              onLoad={handleIframeLoad}
-              style={{
-                ...{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  margin: "0 auto",
-                },
-                display: iframeLoaded ? "flex" : "none",
-              }}
-            ></iframe>
+            <div className="laporan-ipl">
+              <iframe
+                width="1500"
+                height="700"
+                frameborder="0"
+                src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+                onLoad={handleIframeLoad}
+                style={{
+                  ...{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    margin: "0 auto",
+                  },
+                  display: iframeLoaded ? "flex" : "none",
+                }}
+              ></iframe>
+            </div>
+            <div className="laporan-kas">
+              <div className="laporan-saldo">
+                <iframe
+                  width="740"
+                  height="600"
+                  sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                  src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211469&authkey=%21AIJwlthTQDe1qgk&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+                  referrerPolicy={"allow-same-origin"}
+                  onLoad={handleIframeLoad}
+                  style={{
+                    ...{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      margin: "0 auto",
+                    },
+                    display: iframeLoaded ? "flex" : "none",
+                  }}
+                ></iframe>
+              </div>
+              <div className="laporan-ipl-mingguan">
+                <iframe
+                  width="740"
+                  height="600"
+                  frameborder="0"
+                  scrolling="no"
+                  src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211486&authkey=%21AJ15A7mpzaQ32sM&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"
+                  onLoad={handleIframeLoad}
+                  style={{
+                    ...{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      margin: "0 auto",
+                    },
+                    display: iframeLoaded ? "flex" : "none",
+                  }}
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -51,25 +94,3 @@ export default function LaporanKeuanganRT() {
     </div>
   );
 }
-
-// const  LaporanKeuanganRT = () => {
-//   return (
-//     <div id="laporan-keuangan-rt">
-//       <Header />
-//        <div className="laporan-keuangan-rt">
-//         <h1>Laporan Keuangan RT</h1>
-
-//         <div className="laporan-keuangan">
-//           <iframe
-//             width="1200"
-//             height="600"
-//             src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211379&authkey=%21AJmejev2rui9S80&em=2&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"
-//           ></iframe>
-//         </div>
-//       </div>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default LaporanKeuanganRT
