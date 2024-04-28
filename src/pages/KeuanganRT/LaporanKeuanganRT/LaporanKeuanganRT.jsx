@@ -29,9 +29,10 @@ export default function LaporanKeuanganRT() {
                 Loading data...
               </p>
             )}
-            <div className="laporan-ipl">
+
+            <div className="laporan-card">
               <iframe
-                width="1500"
+                width="1530"
                 height="700"
                 frameborder="0"
                 src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
@@ -47,14 +48,14 @@ export default function LaporanKeuanganRT() {
                 }}
               ></iframe>
             </div>
+
             <div className="laporan-kas">
-              <div className="laporan-saldo">
+              <div className="laporan-card">
                 <iframe
                   width="740"
                   height="600"
                   sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
                   src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211469&authkey=%21AIJwlthTQDe1qgk&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
-                  referrerPolicy={"allow-same-origin"}
                   onLoad={handleIframeLoad}
                   style={{
                     ...{
@@ -67,12 +68,10 @@ export default function LaporanKeuanganRT() {
                   }}
                 ></iframe>
               </div>
-              <div className="laporan-ipl-mingguan">
+              <div className="laporan-card">
                 <iframe
                   width="740"
                   height="600"
-                  frameborder="0"
-                  scrolling="no"
                   src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211486&authkey=%21AJ15A7mpzaQ32sM&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"
                   onLoad={handleIframeLoad}
                   style={{

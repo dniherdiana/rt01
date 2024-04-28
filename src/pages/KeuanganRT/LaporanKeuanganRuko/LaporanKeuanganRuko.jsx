@@ -4,7 +4,7 @@ import "./laporanKeuanganRuko.css";
 import React, { useState } from "react";
 
 export default function LaporanKeuanganRuko() {
-  const [iframeloaded, setIframeLoaded] = useState(false);
+  const [iframeLoaded, setIframeLoaded] = useState(false);
   const handleIframeLoad = () => {
     setIframeLoaded(true);
   };
@@ -17,7 +17,7 @@ export default function LaporanKeuanganRuko() {
           <h1>Laporan Keuangan Ruko</h1>
 
           <div className="laporan-keuangan">
-            {!iframeloaded && (
+            {!iframeLoaded && (
               <p
                 style={{
                   fontSize: "1.5rem",
@@ -28,22 +28,45 @@ export default function LaporanKeuanganRuko() {
                 Loading data...
               </p>
             )}
-            <iframe
-              width="800"
-              height="600"
-              src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211224&authkey=!ANn8O9VlUful5YE&em=2"
-              lazy="loading"
-              onLoad={handleIframeLoad}
-              style={{
-                ...{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  margin: "0 auto",
-                },
-                display: iframeloaded ? "flex" : "none",
-              }}
-            ></iframe>
+
+            <div className="laporan-card">
+              <iframe
+                width="1500"
+                height="600"
+                frameborder="0"
+                src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211494&authkey=%21ABk-aNADuCKAXdw&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+                onLoad={handleIframeLoad}
+                style={{
+                  ...{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    margin: "0 auto",
+                  },
+                  display: iframeLoaded ? "flex" : "none",
+                }}
+              ></iframe>
+            </div>
+
+            <div className="laporan-kas">
+              <div className="laporan-card">
+                <iframe
+                  width="740"
+                  height="600"
+                  src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211382&authkey=%21AIQP8N4agURVPmQ&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+                  onLoad={handleIframeLoad}
+                  style={{
+                    ...{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      margin: "0 auto",
+                    },
+                    display: iframeLoaded ? "flex" : "none",
+                  }}
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
