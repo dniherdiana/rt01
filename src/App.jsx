@@ -16,24 +16,28 @@ export default function App() {
       role: "Ketua RT",
       name: "Aries Sulistiyo",
       phone: 6285887082588,
+      alt: "Ketua RT",
     },
     {
       className: "struktur-pp-wakil",
       role: "Bendahara",
       name: "Deni Herdiana",
       phone: +6282124387146,
+      alt: "Bendahara",
     },
     {
       className: "struktur-pp-wakil",
       role: "Sekretaris",
       name: "Koesmayadi",
       phone: 6281389346460,
+      alt: "Sekretaris",
     },
     {
       className: "struktur-pp-wakil",
       role: "Koordinator Ruko",
       name: "Sumargono",
       phone: 6281314051844,
+      alt: "Koordinator Ruko",
     },
   ];
 

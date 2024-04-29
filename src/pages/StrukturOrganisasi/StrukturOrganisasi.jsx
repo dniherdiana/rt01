@@ -12,6 +12,7 @@ StrukturOrganisasi.propTypes = {
       name: PropTypes.string.isRequired,
       phone: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
         .isRequired,
+      alt: PropTypes.string.isRequired,
     })
   ).isRequired,
 };
@@ -25,7 +26,7 @@ export default function StrukturOrganisasi(props) {
   // Map over 'pengurus' array
   const listPos = pengurus.map((item, index) => (
     <div key={index} className={item.className}>
-      <img src={ProfilePic} alt="Ketua RT" />
+      <img src={ProfilePic} alt={item.alt} />
       <div className="pp-detail">
         <div id="role-name-bg">
           <h2 className="role-bg">{item.role}</h2>
