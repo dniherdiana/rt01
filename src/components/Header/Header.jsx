@@ -36,7 +36,7 @@ export default function Header() {
               <Link to="#">Informasi</Link>
               <div className="dropdown-content">
                 <Link to={"/StrukturOrganisasi"}>Struktur Organisasi</Link>
-                <Link to="/DataWarga">Data Warga RT01</Link>
+                {/* <Link to="/DataWarga">Data Warga RT01</Link> */}
                 <Link to="/Galeri">Galeri</Link>
               </div>
             </div>

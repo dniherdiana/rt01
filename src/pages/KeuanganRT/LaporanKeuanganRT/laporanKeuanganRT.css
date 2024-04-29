@@ -31,15 +31,6 @@ iframe {
   justify-content: center;
 }
 
-/* .laporan-ipl iframe,
-.laporan-saldo iframe,
-.laporan-ipl-mingguan iframe {
-  background-color: rgba(0, 0, 0, 0.312);
-  padding: 30px;
-  margin: 0 250px;
-  border-radius: 10px;
-} */
-
 .laporan-card iframe {
   background-color: rgba(0, 0, 0, 0.312);
   padding: 30px;

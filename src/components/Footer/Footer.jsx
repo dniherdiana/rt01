@@ -8,7 +8,6 @@ export default function Footer() {
         justifyContent: "center",
         padding: "40px 0",
         alignItems: "flex-end",
-        // minHeight: "100vh",
       }}
     >
       <div id="footer">

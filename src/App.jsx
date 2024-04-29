@@ -7,7 +7,7 @@ import StrukturOrganisasi from "./pages/StrukturOrganisasi/StrukturOrganisasi";
 import LaporanKeuanganRT from "./pages/KeuanganRT/LaporanKeuanganRT/LaporanKeuanganRT";
 import LaporanKeuanganRuko from "./pages/KeuanganRT/LaporanKeuanganRuko/LaporanKeuanganRuko";
 import Galeri from "./pages/Galeri/Galeri";
-import DataWarga from "./pages/DataWarga/DataWarga";
+// import DataWarga from "./pages/DataWarga/DataWarga";
 
 export default function App() {
   const PengurusRt = [
@@ -52,7 +52,7 @@ export default function App() {
         <Route path="/LaporanKeuanganRT" element={<LaporanKeuanganRT />} />
         <Route path="/LaporanKeuanganRuko" element={<LaporanKeuanganRuko />} />
         <Route path="/Galeri" element={<Galeri />} />
-        <Route path="/DataWarga" element={<DataWarga />}></Route>
+        {/* <Route path="/DataWarga" element={<DataWarga />}></Route> */}
       </Routes>
     </Router>
   );
