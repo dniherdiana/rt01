@@ -8,7 +8,12 @@ export default function Beranda() {
     <main className="container">
       <Header />
       <div className="image-container">
-        <img src={BerandaImage} alt="Image" className="center-image" />
+        <img
+          src={BerandaImage}
+          alt="Image"
+          className="center-image"
+          loading="lazy"
+        />
         <p className="welcome-text">
           Selamat datang di website RT001! Kami dengan senang hati membuka pintu
           bagi semua warga untuk memantau kinerja pengurus dan transparansi

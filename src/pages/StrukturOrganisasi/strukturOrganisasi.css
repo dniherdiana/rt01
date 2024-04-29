@@ -30,6 +30,7 @@
   box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
+  /* box shadow*/
 }
 
 .struktur-pp-wakil {
@@ -45,10 +46,12 @@
   box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
+  /* box shadow*/
 }
 
 .pp-detail p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: -1px;
   padding: 2px 0;
   font-family: poppins;
   font-weight: 400;
@@ -56,11 +59,11 @@
 }
 
 .pp-detail h2 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family: Uchen;
   margin-bottom: -12px;
-  font-weight: 400;
-  letter-spacing: -1px;
+  font-weight: 500;
+  letter-spacing: -2px;
 }
 
 #role-name-bg {
@@ -111,22 +114,4 @@
 .cvw-bg:hover {
   color: white;
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.664);
-}
-
-
-/* @media screen and (max-width: 880px) */
-@media screen and (min-width: 768px) {
-
-  /* .struktur-pp-rt {
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
-
-  .struktur-pp-wakil {
-    padding: 20px 50px;
-  }
-
-  .pp-detail {
-    margin: 8px;
-  } */
 }
