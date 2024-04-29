@@ -24,16 +24,16 @@ export default function StrukturOrganisasi(props) {
   }
 
   // Map over 'pengurus' array
-  const listPos = pengurus.map((item, index) => (
-    <div key={index} className={item.className}>
-      <img src={ProfilePic} alt={item.alt} />
+  const listPos = pengurus.map((data, index) => (
+    <div key={index} className={data.className}>
+      <img src={ProfilePic} alt={data.alt} />
       <div className="pp-detail">
         <div id="role-name-bg">
-          <h2 className="role-bg">{item.role}</h2>
-          <p className="name-bg">{item.name}</p>
+          <h2 className="role-bg">{data.role}</h2>
+          <p className="name-bg">{data.name}</p>
         </div>
         <div className="wa-detail">
-          <a href={`https://wa.me/${item.phone}`}>
+          <a href={`https://wa.me/${data.phone}`}>
             <span className="cvw-bg">
               <img src={WaIcon} alt="WhatsApp" />
               Whatsapp

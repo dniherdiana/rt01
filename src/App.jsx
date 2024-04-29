@@ -10,7 +10,7 @@ import Galeri from "./pages/Galeri/Galeri";
 import DataWarga from "./pages/DataWarga/DataWarga";
 
 export default function App() {
-  const rt = [
+  const PengurusRt = [
     {
       className: "struktur-pp-rt",
       role: "Ketua RT",
@@ -47,7 +47,7 @@ export default function App() {
         <Route path="/" element={<Beranda />} />
         <Route
           path="/StrukturOrganisasi"
-          element={<StrukturOrganisasi pengurus={rt} />}
+          element={<StrukturOrganisasi pengurus={PengurusRt} />}
         />
         <Route path="/LaporanKeuanganRT" element={<LaporanKeuanganRT />} />
         <Route path="/LaporanKeuanganRuko" element={<LaporanKeuanganRuko />} />
