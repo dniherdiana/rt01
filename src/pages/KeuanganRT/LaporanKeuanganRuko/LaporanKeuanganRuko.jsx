@@ -28,27 +28,26 @@ export default function LaporanKeuanganRuko() {
                 Loading data...
               </p>
             )}
-
-            <div className="laporan-card">
-              <iframe
-                width="1500"
-                height="600"
-                frameborder="0"
-                src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211494&authkey=%21ABk-aNADuCKAXdw&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
-                onLoad={handleIframeLoad}
-                style={{
-                  ...{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    margin: "0 auto",
-                  },
-                  display: iframeLoaded ? "flex" : "none",
-                }}
-              ></iframe>
-            </div>
-
             <div className="laporan-kas">
+              <div className="laporan-card">
+                <iframe
+                  width="1000"
+                  height="600"
+                  frameborder="0"
+                  src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211494&authkey=%21ABk-aNADuCKAXdw&em=2&wdAllowInteractivity=False&ActiveCell='IPL%20'!C1&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+                  onLoad={handleIframeLoad}
+                  style={{
+                    ...{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      margin: "0 auto",
+                    },
+                    display: iframeLoaded ? "flex" : "none",
+                  }}
+                ></iframe>
+              </div>
+
               <div className="laporan-card">
                 <iframe
                   width="740"

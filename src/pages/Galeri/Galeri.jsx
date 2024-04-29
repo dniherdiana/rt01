@@ -1,13 +1,14 @@
 import Header from "../../components/Header/Header";
+import UnderConstruction from "../../assets/images/under-construction.jpeg";
 import "./galeri.css";
 
 export default function Galeri() {
   return (
     <div id="galeri">
-      <div className="galeri">
-        <h1>Galeri</h1>
-      </div>
       <Header />
+      <div className="img">
+        <img src={UnderConstruction} alt="" />
+      </div>
     </div>
   );
 }

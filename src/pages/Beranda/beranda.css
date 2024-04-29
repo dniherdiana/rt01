@@ -1,3 +1,49 @@
-.beranda {
-  height: 76.4vh;
+.image-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin: auto;
+  height: 90vh;
+}
+
+.image-container img {
+  display: block;
+  min-width: 50%;
+  min-height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 59px 0;
+}
+
+.welcome-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.pengurus-text {
+  padding-top: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 880px) {
+  .image-container img {
+    padding: 0 15px;
+    min-height: 50%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    height: 100%;
+    margin-top: 50px;
+    padding: auto;
+  }
+
+  .welcome-text {
+    font-family: poppins, Times New Roman;
+    font-size: 1.1rem;
+  }
 }
