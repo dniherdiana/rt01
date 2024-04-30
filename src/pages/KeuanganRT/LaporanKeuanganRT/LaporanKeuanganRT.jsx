@@ -30,9 +30,9 @@ export default function LaporanKeuanganRT() {
               </p>
             )}
 
-            <div className="laporan-card-rt">
+            <div className="laporan--rt">
               <iframe
-                width="1530"
+                width="1250"
                 height="700"
                 frameborder="0"
                 src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
@@ -52,7 +52,7 @@ export default function LaporanKeuanganRT() {
             <div className="laporan-kas">
               <div className="laporan-card">
                 <iframe
-                  width="740"
+                  width="600"
                   height="600"
                   sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
                   src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211469&authkey=%21AIJwlthTQDe1qgk&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
@@ -70,7 +70,7 @@ export default function LaporanKeuanganRT() {
               </div>
               <div className="laporan-card">
                 <iframe
-                  width="740"
+                  width="600"
                   height="600"
                   src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211486&authkey=%21AJ15A7mpzaQ32sM&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"
                   onLoad={handleIframeLoad}

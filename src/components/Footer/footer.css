@@ -30,11 +30,12 @@ footer {
 
 @media (min-width: 360px) and (max-width: 430px) {
   footer {
-    font-size: .8rem;
+    font-size: .9rem;
+    letter-spacing: -1px;
   }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 767px) {
   footer {
     font-size: 1rem;
   }
@@ -43,6 +44,6 @@ footer {
 @media (min-width: 768px) and (max-width: 1114px) {
   footer {
     font-size: 1.5rem;
-    margin-top: 75px;
+    /* margin-top: 75px; */
   }
 }
