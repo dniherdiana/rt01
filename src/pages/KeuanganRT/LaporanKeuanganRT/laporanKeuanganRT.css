@@ -31,15 +31,7 @@ iframe {
   justify-content: center;
 }
 
-/* .laporan-card iframe {
-  background-color: rgba(0, 0, 0, 0.312);
-  padding: 30px;
-  margin: 0 250px;
-  border-radius: 10px;
-} */
-
-
-@media (min-width: 360px) and (max-width: 430px) {}
+/* @media (min-width: 360px) and (max-width: 430px) {} */
 
 @media (max-width: 767px) {
   .laporan-kas {

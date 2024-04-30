@@ -23,10 +23,10 @@ export default function Header() {
               <Link to="#">Laporan Keuangan</Link>
               <div className="dropdown-content">
                 <div className="dropdown-position-rt">
-                  <Link to={"/LaporanKeuanganRT"}>Laporan Keuangan RT</Link>
+                  <Link to={"/LaporanKeuanganRT"}>Keuangan RT</Link>
                 </div>
                 <div className="dropdown-position-ruko">
-                  <Link to={"/LaporanKeuanganRuko"}>Laporan Keuangan Ruko</Link>
+                  <Link to={"/LaporanKeuanganRuko"}>Keuangan Ruko</Link>
                 </div>
               </div>
             </div>
