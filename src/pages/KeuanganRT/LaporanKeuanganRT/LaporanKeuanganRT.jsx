@@ -30,7 +30,7 @@ export default function LaporanKeuanganRT() {
               </p>
             )}
 
-            <div className="laporan--rt">
+            <div className="laporan-rt">
               <iframe
                 width="1250"
                 height="700"
