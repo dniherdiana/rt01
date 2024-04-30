@@ -28,8 +28,21 @@ footer {
   font-weight: 400;
 }
 
-@media (max-width: 880px) {
+@media (min-width: 360px) and (max-width: 430px) {
+  footer {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 400px) {
   footer {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1114px) {
+  footer {
+    font-size: 1.5rem;
+    margin-top: 75px;
   }
 }
