@@ -80,6 +80,10 @@ nav li a:hover {
 }
 
 @media (min-width: 360px) and (max-width: 430px) {
+  .navbar {
+    margin: 0 200px;
+  }
+
   #header {
     background-color: rgba(0, 0, 0, 0.800);
     display: flex;
@@ -125,7 +129,7 @@ nav li a:hover {
 
   .dropdown:hover .dropdown-content {
     background-color: rgba(0, 0, 0, 0.800);
-    margin-top: 12px;
+    margin-top: 1px;
     text-align: center;
   }
 }

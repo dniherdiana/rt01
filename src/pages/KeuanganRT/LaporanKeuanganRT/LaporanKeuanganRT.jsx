@@ -34,8 +34,8 @@ export default function LaporanKeuanganRT() {
               <iframe
                 width="1250"
                 height="700"
-                frameborder="0"
-                src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+                referrerPolicy="Access-Control-Allow-Origin"
+                src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&Item='IPL'!A1%3AV65&wdInConfigurator=True&wdInConfigurator=True"
                 onLoad={handleIframeLoad}
                 style={{
                   ...{
@@ -54,6 +54,7 @@ export default function LaporanKeuanganRT() {
                 <iframe
                   width="600"
                   height="600"
+                  referrerPolicy="Access-Control-Allow-Origin"
                   sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
                   src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211469&authkey=%21AIJwlthTQDe1qgk&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
                   onLoad={handleIframeLoad}
