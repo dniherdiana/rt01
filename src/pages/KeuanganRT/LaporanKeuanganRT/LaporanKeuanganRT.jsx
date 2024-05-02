@@ -6,6 +6,8 @@ import React, { useState } from "react";
 export default function LaporanKeuanganRT() {
   const [iframeLoaded, setIframeLoaded] = useState(false);
 
+  const [hideDisplay, setHideDisplay] = useState(true);
+
   const handleIframeLoad = () => {
     setIframeLoaded(true);
   };
