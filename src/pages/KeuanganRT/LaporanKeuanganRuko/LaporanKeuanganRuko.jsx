@@ -51,7 +51,6 @@ export default function LaporanKeuanganRuko() {
                 width="740"
                 height="600"
                 referrerPolicy="Access-Control-Allow-Origin"
-                // src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211382&authkey=%21AIQP8N4agURVPmQ&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
                 src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211382&authkey=%21AIQP8N4agURVPmQ&em=2&wdAllowInteractivity=False&wdInConfigurator=True&wdInConfigurator=True"
                 onLoad={handleIframeLoad}
                 style={{
