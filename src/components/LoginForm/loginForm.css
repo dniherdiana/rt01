@@ -11,16 +11,20 @@ fieldset {
   text-align: center;
   width: 400px;
   height: 250px;
-  margin: 0 auto;
-  padding: 0 auto;
+  /*  margin: 0 auto;
+  padding: 0 auto; */
   background-color: rgba(0, 0, 0, 0.605);
   border: none;
   border-radius: 5px;
 }
 
 #login-form {
-  text-align: center;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85svh;
+  padding-top: 100px;
 }
 
 fieldset legend {
