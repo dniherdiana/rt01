@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+// import PropTypes from "prop-types";
 import "./loginForm.css";
 
-export default function LoginForm({ onLogin }) {
+export default function LoginForm({ onLoad }) {
   const userDetails = {
     username: "adminrt_01",
     password: "wargart_01",
@@ -18,9 +19,11 @@ export default function LoginForm({ onLogin }) {
       userLogin.username === userDetails.username &&
       userLogin.password === userDetails.password
     ) {
-      onLogin(true);
+      onLoad(true);
+      alert("Login berhasil");
     } else {
-      alert("ERROR, password/username not match");
+      onLoad(false);
+      alert("password/username salah");
     }
   };
 
@@ -66,3 +69,7 @@ export default function LoginForm({ onLogin }) {
     </div>
   );
 }
+
+// dataConfirmation.propTypes = {
+//   onLogin: PropTypes.func.isRequired,
+// };

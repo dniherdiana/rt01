@@ -2,11 +2,11 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding: 10px 0;
+  padding: 15px 0;
   align-items: center;
   background-repeat: no-repeat;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.489);
+  background-color: rgba(0, 0, 0, 0.750);
 }
 
 .header-sticky {
@@ -55,10 +55,11 @@ nav ul {
 
 .dropdown:hover .dropdown-content {
   display: grid;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.489);
-  /* position: absolute; */
-  /* overflow: hidden; */
+  padding: 20px 5px 5px 5px;
+  background-color: rgba(0, 0, 0, 0.750);
+  height: fit-content;
+  text-align: justify;
+  border-radius: 10px;
 }
 
 .navbar ul {
@@ -156,34 +157,3 @@ nav li a:hover {
     text-align: center;
   }
 }
-
-/* @media screen and (max-width: 880px) {
-
-  #header {
-    background-color: rgba(0, 0, 0, 0.800);
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-    margin: 0 auto;
-    height: 122px;
-    transition: 0.8s;
-  }
-
-  #header-logo h1 {
-    font-size: 1.8rem;
-  }
-
-  .navbar ul {
-    font-size: 1.1rem;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.800);
-    padding: 10px 5px;
-    margin: 15px 0;
-    left: 120px;
-    transition: .5s ease-out;
-  }
-} */

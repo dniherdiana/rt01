@@ -1,13 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // eslint-disable-next-line no-unused-vars
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Beranda from "./pages/Beranda/Beranda";
 import StrukturOrganisasi from "./pages/StrukturOrganisasi/StrukturOrganisasi";
 import LaporanKeuanganRT from "./pages/KeuanganRT/LaporanKeuanganRT/LaporanKeuanganRT";
 import LaporanKeuanganRuko from "./pages/KeuanganRT/LaporanKeuanganRuko/LaporanKeuanganRuko";
 import Galeri from "./pages/Galeri/Galeri";
-// import DataWarga from "./pages/DataWarga/DataWarga";
 
 export default function App() {
   const PengurusRt = [
