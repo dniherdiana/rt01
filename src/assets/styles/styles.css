@@ -4,7 +4,6 @@
 @import url('/src/pages/Galeri/galeri.css');
 @import url('/src/pages/StrukturOrganisasi/strukturOrganisasi.css');
 @import url('/src/components/LoginForm/loginForm.css');
-@import url('/src/pages/DataWarga/data-warga.css');
 
 * {
   padding: 0;

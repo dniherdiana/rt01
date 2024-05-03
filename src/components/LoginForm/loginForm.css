@@ -11,8 +11,6 @@ fieldset {
   text-align: center;
   width: 400px;
   height: 250px;
-  /*  margin: 0 auto;
-  padding: 0 auto; */
   background-color: rgba(0, 0, 0, 0.605);
   border: none;
   border-radius: 5px;
@@ -55,7 +53,7 @@ input {
   height: 25px;
   width: 200px;
   border: none;
-  background-color: rgba(255, 255, 255, 0.528);
+  background-color: rgba(255, 255, 255, 0.452);
   color: black;
 }
 
@@ -68,6 +66,6 @@ input {
 }
 
 #login-button:hover {
-  background-color: #002fff;
-  color: white;
+  background-color: #ffffff;
+  /* color: rgb(0, 0, 0); */
 }

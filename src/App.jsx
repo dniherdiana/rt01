@@ -51,7 +51,6 @@ export default function App() {
         <Route path="/LaporanKeuanganRT" element={<LaporanKeuanganRT />} />
         <Route path="/LaporanKeuanganRuko" element={<LaporanKeuanganRuko />} />
         <Route path="/Galeri" element={<Galeri />} />
-        {/* <Route path="/DataWarga" element={<DataWarga />}></Route> */}
       </Routes>
     </Router>
   );
