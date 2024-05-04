@@ -43,7 +43,7 @@ export default function LaporanKeuanganRT() {
                   width="1250"
                   height="700"
                   referrerPolicy="Access-Control-Allow-Origin"
-                  src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&Item='IPL'!A1%3AV65&wdInConfigurator=True&wdInConfigurator=True"
+                  src="https://onedrive.live.com/embed?resid=D746CF77716A5C9E%211483&authkey=%21AMgmAZdUg7vtSP8&em=2&wdAllowInteractivity=False&wdInConfigurator=True&wdInConfigurator=True"
                   onLoad={handleIframeLoad}
                   style={{
                     ...{
