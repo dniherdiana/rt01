@@ -70,6 +70,6 @@ export default function LoginForm({ onLoad }) {
   );
 }
 
-// dataConfirmation.propTypes = {
-//   onLogin: PropTypes.func.isRequired,
-// };
+dataConfirmation.propTypes = {
+  onLogin: PropTypes.func.isRequired,
+};
