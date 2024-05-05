@@ -54,7 +54,6 @@ export default function App() {
         <Route path="/LaporanKeuanganRuko" element={<LaporanKeuanganRuko />} />
         <Route path="/Galeri" element={<Galeri />} />
       </Routes>
-    /*</Router>*/
-      <HashRoutes>
+      </HashRouter>
   );
 }
