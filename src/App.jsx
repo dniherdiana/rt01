@@ -41,7 +41,8 @@ export default function App() {
   ];
 
   return (
-    <Router>
+    /*<Router>*/
+      <HashRouter>
       <Routes>
         <Route path="/" element={<Beranda />} />
         <Route
@@ -52,6 +53,7 @@ export default function App() {
         <Route path="/LaporanKeuanganRuko" element={<LaporanKeuanganRuko />} />
         <Route path="/Galeri" element={<Galeri />} />
       </Routes>
-    </Router>
+    /*</Router>*/
+      <HashRoutes>
   );
 }
