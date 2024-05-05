@@ -81,7 +81,7 @@ nav li a:hover {
 .navbar ul a {
   text-decoration: none;
   color: whitesmoke;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 @media (min-width: 360px) and (max-width: 430px) {
