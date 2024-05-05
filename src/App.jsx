@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // eslint-disable-next-line no-unused-vars
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+/*import { BrowserRouter as Router, Routes, Route } from "react-router-dom";*/
+import {HashRouter, Routes, Route } from "react-router-dom";
 import Beranda from "./pages/Beranda/Beranda";
 import StrukturOrganisasi from "./pages/StrukturOrganisasi/StrukturOrganisasi";
 import LaporanKeuanganRT from "./pages/KeuanganRT/LaporanKeuanganRT/LaporanKeuanganRT";
