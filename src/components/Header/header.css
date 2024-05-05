@@ -81,14 +81,10 @@ nav li a:hover {
 .navbar ul a {
   text-decoration: none;
   color: whitesmoke;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 @media (min-width: 360px) and (max-width: 430px) {
-  .navbar {
-    margin: 0 200px;
-  }
-
   #header {
     background-color: rgba(0, 0, 0, 0.800);
     display: flex;
@@ -106,15 +102,14 @@ nav li a:hover {
 
   .dropdown:hover .dropdown-content {
     background-color: rgba(0, 0, 0, 0.800);
-    margin-top: 5px;
     text-align: center;
   }
 }
 
 @media (min-width: 431px) and (max-width: 767px) {
-  .navbar {
+  /* .navbar {
     margin: 0 20px;
-  }
+  } */
 
   #header {
     background-color: rgba(0, 0, 0, 0.800);
