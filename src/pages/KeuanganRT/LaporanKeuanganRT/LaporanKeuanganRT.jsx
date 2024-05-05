@@ -19,7 +19,7 @@ export default function LaporanKeuanganRT() {
   return (
     <div id="laporan-keuangan-rt">
       <Header />
-      {!isLoggedIn && <LoginForm onLoad={handleLogin} />}
+      {!isLoggedIn && <LoginForm onLoad={handleLogin} userType="rt" />}
       {isLoggedIn && (
         <div className="laporan-keuangan-content">
           <div className="laporan-keuangan-rt">

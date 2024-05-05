@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-// import PropTypes from "prop-types";
 import "./loginForm.css";
 
-export default function LoginForm({ onLoad }) {
+export default function LoginForm({ onLoad, userType }) {
   const userDetails = {
-    username: "adminrt_01",
-    password: "wargart_01",
+    rt: { username: "adminrt_01", password: "wargart_01" },
+    ruko: { username: "adminrt_01", password: "ruko_rt01" },
   };
 
   const [userLogin, setUserLogin] = useState({
@@ -15,9 +14,10 @@ export default function LoginForm({ onLoad }) {
 
   const dataConfirmation = (e) => {
     e.preventDefault();
+    const currentUserDetails = userDetails[userType || "rt"];
     if (
-      userLogin.username === userDetails.username &&
-      userLogin.password === userDetails.password
+      userLogin.username === currentUserDetails.username &&
+      userLogin.password === currentUserDetails.password
     ) {
       onLoad(true);
       alert("Login berhasil");
