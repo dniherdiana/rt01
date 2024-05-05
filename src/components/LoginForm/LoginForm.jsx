@@ -69,7 +69,3 @@ export default function LoginForm({ onLoad }) {
     </div>
   );
 }
-
-dataConfirmation.propTypes = {
-  onLogin: PropTypes.func.isRequired,
-};
