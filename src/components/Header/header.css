@@ -65,7 +65,7 @@ nav ul {
 .navbar ul {
   font-size: 1.2rem;
   list-style: none;
-  gap: 10px;
+  gap: 5px;
   padding: 15px 0;
   font-family: poppins;
 }
