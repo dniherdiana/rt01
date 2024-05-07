@@ -30,7 +30,15 @@ footer {
   font-weight: 400;
 }
 
-@media (min-width: 360px) and (max-width: 430px) {
+@media only screen and (max-width: 799px) {
+  footer {
+    font-size: .8 rem;
+    letter-spacing: -1px;
+    margin: 0 10px;
+  }
+}
+
+/* @media (min-width: 360px) and (max-width: 430px) {
   footer {
     font-size: .9rem;
     letter-spacing: -1px;
@@ -48,4 +56,4 @@ footer {
     font-size: 1.5rem;
     margin-top: 200px;
   }
-}
+} */

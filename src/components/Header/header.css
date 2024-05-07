@@ -38,7 +38,7 @@
 }
 
 .bg-logo-ccr {
-  padding-right: 10px;
+  padding: 0 10px 0 10px;
   text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -88,10 +88,15 @@ nav li a:hover {
   display: none;
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width:880px) {
   #header {
     display: grid;
     text-align: center;
+    justify-content: stretch;
+  }
+
+  #header-logo h1 {
+    font-size: 2rem;
   }
 
   .logo-hideMenu {
@@ -144,6 +149,15 @@ nav li a:hover {
     display: block;
   }
 }
+
+/* @media only screen and (min-width: 800px) {
+  #header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+} */
 
 /* @media (min-width: 330px) and (max-width: 430px) {
   #header {
