@@ -3,7 +3,7 @@
   flex-direction: column;
   padding-top: 100px;
   margin: auto;
-  height: 90vh;
+  height: 85vh;
 }
 
 .image-container img {
@@ -34,7 +34,7 @@
 @media screen and (max-width: 880px) {
   .image-container img {
     padding: 0 15px;
-    height: 225px;
+    /* height: 225px; */
     width: 100%;
     margin-bottom: 20px;
   }

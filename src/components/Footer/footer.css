@@ -2,6 +2,8 @@ footer {
   font-size: 1.2rem;
   font-family: poppins;
   font-weight: 300;
+  height: 150px;
+  padding: 40px 0;
 }
 
 #footer-style {

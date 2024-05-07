@@ -14,11 +14,11 @@
 
 .struktur-container {
   text-align: center;
-  margin-bottom: 50px;
+  padding: 5px 0;
 }
 
 .struktur-pp-rt {
-  text-align: center;
+  /* text-align: center; */
   padding: 30px 0;
 }
 
