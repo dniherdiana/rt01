@@ -3,23 +3,23 @@
   flex-direction: column;
   padding-top: 100px;
   margin: auto;
-  height: 85vh;
+  height: 89vh;
 }
 
 .image-container img {
   display: block;
-  min-width: 50%;
-  min-height: 50%;
+  min-width: 40%;
+  min-height: 40%;
   margin-left: auto;
   margin-right: auto;
-  padding: 59px 0;
+  padding: 75px 0;
 }
 
 .welcome-text {
   font-size: 1.4rem;
   color: black;
   font-style: italic;
-  padding: 0 50px;
+  padding: 0 80px;
   text-align: center;
   font-family: 'poppins', Courier, monospace;
 }
@@ -34,7 +34,6 @@
 @media screen and (max-width: 880px) {
   .image-container img {
     padding: 0 15px;
-    /* height: 225px; */
     width: 100%;
     margin-bottom: 20px;
   }
@@ -46,8 +45,9 @@
   }
 
   .welcome-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: black;
+    padding: 0 45px;
   }
 
   .pengurus-text {
