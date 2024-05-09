@@ -124,14 +124,14 @@ nav li a:hover {
   }
 
   .dropdown:hover .dropdown-content {
-    background-color: red;
+    background-color: transparent;
     text-align: center;
     padding: 25px 0;
   }
 
   .dropdown>:link,
   nav ul li>:link {
-    font-weight: 400
+    font-weight: 200
   }
 
   .hide-menu {
