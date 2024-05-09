@@ -124,7 +124,7 @@ nav li a:hover {
   }
 
   .dropdown:hover .dropdown-content {
-    background-color: transparent;
+    background-color: red;
     text-align: center;
     padding: 25px 0;
   }
