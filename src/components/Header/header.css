@@ -59,7 +59,7 @@ nav ul {
   background-color: rgba(0, 0, 0, 0.750);
   height: fit-content;
   text-align: justify;
-  border-radius: 10px;
+  border-radius: 10px
 }
 
 .navbar ul {
@@ -74,8 +74,8 @@ nav li a:hover {
   color: black;
   border-radius: 5px;
   background-color: white;
+  width: fit-content;
   transition: 0.6s ease-in;
-  font-weight: 400;
 }
 
 .navbar ul a {
