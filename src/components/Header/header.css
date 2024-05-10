@@ -93,6 +93,7 @@ nav li a:hover {
     text-align: center;
     justify-content: stretch;
     padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.648);
   }
 
   #header-logo h1 {
