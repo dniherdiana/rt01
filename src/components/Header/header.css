@@ -127,6 +127,7 @@ nav li a:hover {
     background-color: transparent;
     text-align: center;
     padding: 25px 0;
+    width: 100%;
   }
 
   .dropdown>:link,
