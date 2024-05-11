@@ -34,10 +34,10 @@ export default function Header() {
               <div className="dropdown">
                 <Link to="#">Laporan Keuangan</Link>
                 <div className="dropdown-content">
-                  <div className="dropdown-position rt">
+                  <div className="dropdown-position">
                     <Link to={"/LaporanKeuanganRT"}>Keuangan RT</Link>
                   </div>
-                  <div className="dropdown-position ruko">
+                  <div className="dropdown-position">
                     <Link to={"/LaporanKeuanganRuko"}>Keuangan Ruko</Link>
                   </div>
                 </div>

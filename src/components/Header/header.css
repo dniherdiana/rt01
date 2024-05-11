@@ -55,11 +55,12 @@ nav ul {
 
 .dropdown:hover .dropdown-content {
   display: grid;
-  padding: 20px 5px 5px 5px;
+  padding: 10px 5px 5px 5px;
   background-color: rgba(0, 0, 0, 0.750);
-  height: fit-content;
+  /* height: fit-content; */
   text-align: justify;
-  border-radius: 10px
+  border-radius: 10px;
+  text-align: center;
 }
 
 .navbar ul {
@@ -80,7 +81,7 @@ nav li a:hover {
 .navbar ul a {
   text-decoration: none;
   color: whitesmoke;
-  /*padding: 0 10px;*/
+  padding: 0 10px;
 }
 
 .hide-menu {
@@ -97,7 +98,7 @@ nav li a:hover {
   }
 
   #header-logo h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .logo-hideMenu {
@@ -115,25 +116,28 @@ nav li a:hover {
     padding: 10px 0;
   }
 
+  nav li a:hover {
+    background-color: rgba(107, 102, 102, 0.585);
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
   .burger-menu ul {
     display: grid;
-    padding: 50px 0;
   }
 
   .burger-menu .dropdown-content {
-    position: absolute;
+    position: relative;
   }
 
   .dropdown:hover .dropdown-content {
     background-color: transparent;
     text-align: center;
-    padding: 25px 0;
-    width: 100%;
-  }
-
-  .dropdown>:link,
-  nav ul li>:link {
-    font-weight: 200
+    /* width: 100%; */
+    font-weight: 200;
+    font-size: 1.1rem;
+    padding: 10px 0;
   }
 
   .hide-menu {

@@ -33,8 +33,7 @@ footer {
 
   .design-text,
   .footer-text {
-    font-size: .9rem;
-    letter-spacing: -1;
+    font-size: .7rem;
     padding: 10px;
   }
 }
