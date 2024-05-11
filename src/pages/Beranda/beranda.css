@@ -8,10 +8,9 @@
 
 .image-container img {
   display: block;
-  /* min-width: 40%;
-  min-height: 40%; */
+  /* min-width: 40%;*/
+  /* min-height: 40%; */
   width: 500px;
-  height: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 75px 0;
@@ -38,15 +37,14 @@
   .image-container img {
     padding: 0 15px;
     /* width: 100%; */
-    width: 350px;
-    height: 200px;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
   }
 
   .image-container {
     height: 100%;
-    margin-top: 50px;
-    padding: auto;
+    margin: 55px 0;
   }
 
   .welcome-text {

@@ -58,7 +58,7 @@ nav ul {
   padding: 10px 5px 5px 5px;
   background-color: rgba(0, 0, 0, 0.750);
   /* height: fit-content; */
-  text-align: justify;
+  /* text-align: justify; */
   border-radius: 10px;
   text-align: center;
 }
