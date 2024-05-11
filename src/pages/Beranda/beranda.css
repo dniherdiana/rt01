@@ -8,8 +8,10 @@
 
 .image-container img {
   display: block;
-  min-width: 40%;
-  min-height: 40%;
+  /* min-width: 40%;
+  min-height: 40%; */
+  width: 500px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 75px 0;
@@ -19,7 +21,7 @@
   font-size: 1.3rem;
   color: black;
   font-style: italic;
-  padding: 0 80px;
+  padding: 0 600px;
   text-align: center;
   font-family: 'poppins', Courier, monospace;
 }
