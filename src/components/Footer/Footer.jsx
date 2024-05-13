@@ -6,7 +6,7 @@ export default function Footer() {
       style={{
         display: "flex",
         justifyContent: "center",
-        padding: "40px 0",
+        padding: "30px 0",
         alignItems: "flex-end",
       }}
     >
