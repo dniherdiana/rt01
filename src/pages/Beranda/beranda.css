@@ -3,13 +3,11 @@
   flex-direction: column;
   padding-top: 100px;
   margin: auto;
-  height: 89vh;
+  min-height: 90vh;
 }
 
 .image-container img {
   display: block;
-  /* min-width: 40%;*/
-  /* min-height: 40%; */
   width: 500px;
   margin-left: auto;
   margin-right: auto;
