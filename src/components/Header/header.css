@@ -6,7 +6,7 @@
   align-items: center;
   background-repeat: no-repeat;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.671);
+  background-color: rgba(0, 0, 0, 0.404);
 }
 
 .header-sticky {
@@ -56,26 +56,25 @@ nav ul {
 .dropdown:hover .dropdown-content {
   display: grid;
   padding: 10px 5px 5px 5px;
-  background-color: rgba(0, 0, 0, 0.750);
-  /* height: fit-content; */
-  /* text-align: justify; */
+  background-color: rgba(0, 0, 0, 0.404);
   border-radius: 10px;
   text-align: center;
+  font-weight: 300;
 }
 
 .navbar ul {
   font-size: 1.2rem;
   list-style: none;
-  gap: 5px;
-  padding: 5px 0;
+  gap: 10px;
   font-family: poppins;
+  font-weight: 300;
 }
 
 nav li a:hover {
-  color: black;
+  color: white;
   border-radius: 5px;
-  background-color: white;
-  transition: 0.6s ease-in;
+  background-color: rgba(0, 0, 0, 0.404);
+  transition: 0.2s ease-in;
 }
 
 .navbar ul a {
@@ -134,7 +133,6 @@ nav li a:hover {
   .dropdown:hover .dropdown-content {
     background-color: transparent;
     text-align: center;
-    /* width: 100%; */
     font-weight: 200;
     font-size: 1.1rem;
     padding: 10px 0;
@@ -158,6 +156,6 @@ nav li a:hover {
 
 @media only screen and (min-width: 768px) and (max-width: 1114px) {
   #header-logo h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
