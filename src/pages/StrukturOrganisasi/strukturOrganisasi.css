@@ -5,7 +5,7 @@
 .struktur-organisasi h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-size: 2.5rem;
   text-shadow: 2px 2px 2px #000000;
   font-family: Homenaje;
@@ -29,7 +29,7 @@
 
 .struktur-pp-wakil {
   display: inline-block;
-  padding: 30px 50px;
+  padding: 50px 50px;
 }
 
 .struktur-pp-wakil img {
