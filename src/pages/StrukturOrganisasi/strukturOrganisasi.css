@@ -3,11 +3,11 @@
 }
 
 .struktur-organisasi h1 {
-  color: rgb(255, 255, 255);
+  color: #3F2305;
   text-align: center;
   padding-bottom: 50px;
   font-size: 2.5rem;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 2px 2px 2px #2c2b2ba8;
   font-family: Homenaje;
   font-weight: 500;
 }
@@ -24,7 +24,6 @@
   box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
-  /* box shadow*/
 }
 
 .struktur-pp-wakil {
@@ -40,11 +39,11 @@
   box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
-  /* box shadow*/
 }
 
 .pp-detail p {
   font-size: 1.2rem;
+  color: #3F2305;
   letter-spacing: -1px;
   padding: 2px 0;
   font-family: poppins;
@@ -60,7 +59,7 @@
 }
 
 #role-name-bg {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid #3F2305;
   width: 140px;
   height: 65px;
   margin: 10px auto;
@@ -68,7 +67,8 @@
 }
 
 .role-bg {
-  background-color: white;
+  background-color: #3F2305;
+  color: #DFD7BF;
 }
 
 .name-bg {

@@ -4,9 +4,13 @@
   flex-direction: row;
   padding: 15px 0;
   align-items: center;
-  background-repeat: no-repeat;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.404);
+  background-color: #DFD7BF;
+  /* box shadow */
+  box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.20);
+  -webkit-box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.20);
+  -moz-box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.20);
+  /* box shadow */
 }
 
 .header-sticky {
@@ -15,7 +19,7 @@
 }
 
 #header-logo h1 {
-  color: rgb(255, 255, 255);
+  color: #3F2305;
   font-size: 2.3rem;
   font-family: Homenaje;
   font-weight: 500;
@@ -23,7 +27,7 @@
 }
 
 .header-logo {
-  border: 2px solid white;
+  border: 2px solid #3F2305;
   border-radius: 5px;
   margin: 5px;
   padding: 0;
@@ -31,15 +35,15 @@
 }
 
 .bg-logo-rt {
-  background-color: white;
-  color: black;
+  background-color: #3F2305;
+  color: #DFD7BF;
   padding-right: 10px;
   padding-left: 5px;
 }
 
 .bg-logo-ccr {
   padding: 0 10px 0 10px;
-  text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.6);
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.172);
 }
 
 nav ul {
@@ -56,7 +60,7 @@ nav ul {
 .dropdown:hover .dropdown-content {
   display: grid;
   padding: 10px 5px 5px 5px;
-  background-color: rgba(0, 0, 0, 0.404);
+  background-color: #DFD7BF;
   border-radius: 10px;
   text-align: center;
   font-weight: 300;
@@ -71,15 +75,18 @@ nav ul {
 }
 
 nav li a:hover {
-  color: white;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.404);
+  color: #3F2305;
   transition: 0.2s ease-in;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px #3f230552;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
 }
 
 .navbar ul a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #3F2305;
   padding: 0 10px;
 }
 
@@ -93,7 +100,6 @@ nav li a:hover {
     text-align: center;
     justify-content: stretch;
     padding: 20px 10px;
-    background-color: rgba(0, 0, 0, 0.648);
   }
 
   #header-logo h1 {
@@ -140,7 +146,7 @@ nav li a:hover {
 
   .hide-menu {
     display: block;
-    color: whitesmoke;
+    background-color: #DFD7BF;
     transition: all 0.3s ease-in-out;
     font-size: 1.6rem;
   }

@@ -11,13 +11,13 @@ fieldset {
   text-align: center;
   width: 400px;
   height: 250px;
-  background-color: rgba(0, 0, 0, 0.605);
-  border: none;
+  background-color: #DFD7BF;
+  border: 2px solid #3F2305;
   border-radius: 5px;
 }
 
 #login-form {
-  color: white;
+  color: #3F2305;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@ input {
   height: 25px;
   width: 200px;
   border: none;
-  background-color: rgba(255, 255, 255, 0.452);
+  background-color: #F5F5F5;
   color: black;
 }
 
@@ -61,7 +61,7 @@ input {
   padding: 5px 20px;
   border-radius: 15px;
   border: none;
-  background-color: #ffffff7a;
+  background-color: #F5F5F5;
 }
 
 #login-button:hover {

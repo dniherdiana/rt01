@@ -12,11 +12,16 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background-image:
     linear-gradient(180deg in oklab,
       oklch(70% 0.5 258) 0% 13%, oklch(55% 0.5 200) 85% 49%);
   background-repeat: no-repeat;
   height: 100%;
   overflow-x: hidden;
+} */
+
+body {
+  background-color: #F5F5F5;
+  height: 100%;
 }

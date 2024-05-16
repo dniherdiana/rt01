@@ -62,7 +62,7 @@ export default function LoginForm({ onLoad, userType }) {
             Login
           </button>
           <div className="login-note">
-            <p>* Untuk username & password silahkan tanyakan ke Pengurus RT</p>
+            <p>* Untuk username & password silahkan tanya ke Pengurus RT</p>
           </div>
         </fieldset>
       </form>

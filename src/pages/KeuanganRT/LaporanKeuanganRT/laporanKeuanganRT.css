@@ -4,11 +4,12 @@
 }
 
 .laporan-keuangan-rt h1 {
-  color: rgb(255, 255, 255);
+  color: #3F2305;
   text-align: center;
   padding: 50px 0 25px 0;
   font-size: 2.8rem;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.34);
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.40);
   font-family: Homenaje;
   font-weight: 300;
 }
@@ -48,51 +49,3 @@ iframe {
     display: grid;
   }
 }
-
-/* @media (min-width: 300px) {
-  .laporan-keuangan-content {
-    max-height: 66vh;
-    overflow: auto;
-  }
-
-  .laporan-keuangan-rt h1 {
-    font-size: 2.2rem;
-  }
-
-  iframe {
-    height: 450px;
-    width: 350px;
-    overflow: auto;
-  }
-
-  .laporan-kas {
-    display: grid;
-    padding: 10px;
-  }
-} */
-
-/* @media (min-width: 768px) and (max-width: 1114px) {
-  .laporan-keuangan-content {
-    max-height: 66vh;
-    overflow: auto;
-  }
-
-  .laporan-keuangan-rt h1 {
-    font-size: 2.2rem;
-  }
-
-  .laporan-card-rt iframe {
-    width: 1000px;
-  }
-
-  iframe {
-    height: 450px;
-    width: 350px;
-    overflow: auto;
-  }
-
-  .laporan-kas {
-    display: grid;
-    padding: 10px;
-  }
-} */
