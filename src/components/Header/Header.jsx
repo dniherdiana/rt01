@@ -32,7 +32,9 @@ export default function Header() {
             </li>
             <li>
               <div className="dropdown">
-                <Link to="#">Laporan Keuangan</Link>
+                <Link to="#" className="disable-link">
+                  Laporan Keuangan
+                </Link>
                 <div className="dropdown-content">
                   <div className="dropdown-position">
                     <Link to={"/LaporanKeuanganRT"}>Keuangan RT</Link>
@@ -45,7 +47,9 @@ export default function Header() {
             </li>
             <li>
               <div className="dropdown">
-                <Link to="#">Informasi</Link>
+                <Link to="#" className="disable-link">
+                  Informasi
+                </Link>
                 <div className="dropdown-content">
                   <Link to={"/StrukturOrganisasi"}>Struktur Organisasi</Link>
                   <Link to="/Galeri">Galeri</Link>
