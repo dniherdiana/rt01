@@ -113,21 +113,33 @@ nav li a:hover {
     padding-right: 15px;
   }
 
-  .navbar ul {
-    display: none;
+  .dropdown .disable-link {
+    pointer-events: none;
+    cursor: none;
   }
 
-  .navbar ul li {
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+
+  .dropdown:hover .dropdown-content {
+    padding: 0;
+    font-weight: 200;
+    padding-left: 10px;
+    width: fit-content;
+  }
+
+  .nav-wrapper {
     text-align: left;
+    align-items: center;
   }
 
   .navbar ul li:first-child {
     padding-top: 20px;
-  }
-
-  nav li a:hover {
-    background-color: rgba(107, 102, 102, 0.298);
-    width: fit-content;
   }
 
   .burger-menu ul {
@@ -138,20 +150,6 @@ nav li a:hover {
     position: relative;
   }
 
-  /* .dropdown:hover .dropdown-content {
-    background-color: transparent;
-    text-align: left;
-    font-weight: 200;
-    font-size: 1.1rem;
-  } */
-
-  .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    font-size: 1.2rem;
-    font-weight: 300;
-  }
 
   .hide-menu {
     display: block;
