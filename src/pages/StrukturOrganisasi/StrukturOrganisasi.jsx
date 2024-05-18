@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import "./strukturOrganisasi.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-// import ProfilePic from "../../assets/images/profile-pic.webp";
 import WaIcon from "../../assets/images/icons8-whatsapp.svg";
 
 StrukturOrganisasi.propTypes = {
@@ -24,7 +23,6 @@ export default function StrukturOrganisasi(props) {
     return null;
   }
 
-  // Map over 'pengurus' array
   const listPos = pengurus.map((data, index) => (
     <div key={index} className={data.className}>
       <img src={data.picture} alt={data.alt} />
