@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import "./strukturOrganisasi.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import ProfilePic from "../../assets/images/profile-pic.webp";
+// import ProfilePic from "../../assets/images/profile-pic.webp";
 import WaIcon from "../../assets/images/icons8-whatsapp.svg";
 
 StrukturOrganisasi.propTypes = {
@@ -13,6 +13,7 @@ StrukturOrganisasi.propTypes = {
       phone: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
         .isRequired,
       alt: PropTypes.string.isRequired,
+      picture: PropTypes.string.isRequired,
     })
   ).isRequired,
 };
@@ -26,7 +27,7 @@ export default function StrukturOrganisasi(props) {
   // Map over 'pengurus' array
   const listPos = pengurus.map((data, index) => (
     <div key={index} className={data.className}>
-      <img src={ProfilePic} alt={data.alt} />
+      <img src={data.picture} alt={data.alt} />
       <div className="pp-detail">
         <div id="role-name-bg">
           <h2 className="role-bg">{data.role}</h2>
@@ -43,8 +44,6 @@ export default function StrukturOrganisasi(props) {
       </div>
     </div>
   ));
-
-  console.log(listPos);
 
   return (
     <>
