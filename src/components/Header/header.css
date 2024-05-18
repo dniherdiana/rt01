@@ -103,7 +103,7 @@ nav li a:hover {
   }
 
   #header-logo h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .logo-hideMenu {
@@ -157,7 +157,7 @@ nav li a:hover {
     display: block;
     background-color: #DFD7BF;
     transition: all 0.3s ease-in-out;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .nav-wrapper {
@@ -169,7 +169,7 @@ nav li a:hover {
   }
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 343px) {
   #header-logo h1 {
     font-size: 1.4rem;
   }
@@ -177,7 +177,7 @@ nav li a:hover {
 
 @media only screen and (min-width: 768px) and (max-width: 1114px) {
   #header-logo h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
