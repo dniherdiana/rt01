@@ -106,7 +106,8 @@ nav li a:hover {
   }
 
   #header-logo h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    /* edited */
   }
 
   .logo-hideMenu {
@@ -174,7 +175,8 @@ nav li a:hover {
 
 @media only screen and (max-width: 343px) {
   #header-logo h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    /* edited */
   }
 }
 
