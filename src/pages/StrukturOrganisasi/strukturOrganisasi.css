@@ -22,9 +22,9 @@
   width: 145px;
   border-radius: 50%;
   /* box shadow*/
-  box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
 }
 
 .struktur-pp-rt {
@@ -41,9 +41,9 @@
   height: 145px;
   width: 145px;
   /* box shadow */
-  box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 6px 4px 5px 0px rgba(0, 0, 0, 0.36);
 }
 
 .pp-detail p {
