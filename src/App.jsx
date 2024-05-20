@@ -5,46 +5,10 @@ import StrukturOrganisasi from "./pages/StrukturOrganisasi/StrukturOrganisasi";
 import LaporanKeuanganRT from "./pages/KeuanganRT/LaporanKeuanganRT/LaporanKeuanganRT";
 import LaporanKeuanganRuko from "./pages/KeuanganRT/LaporanKeuanganRuko/LaporanKeuanganRuko";
 import Galeri from "./pages/Galeri/Galeri";
-import RtProfilePic from "./assets/images/rt-pp.webp";
-import BendaharaProfilePic from "./assets/images/bendahara-pp.webp";
-import SekretarisProfilePic from "./assets/images/sekretaris-pp.webp";
-import KoordinatorProfilePic from "./assets/images/koordinator-pp.webp";
+import pengurus from "./db/pengurusRt";
 
 export default function App() {
-  const PengurusRt = [
-    {
-      className: "struktur-pp-rt",
-      role: "Ketua RT",
-      name: "Aries Sulistiyo",
-      phone: 6285887082588,
-      alt: "Ketua RT",
-      picture: RtProfilePic,
-    },
-    {
-      className: "struktur-pp-wakil",
-      role: "Bendahara",
-      name: "Deni Herdiana",
-      phone: 6282124387146,
-      alt: "Bendahara",
-      picture: BendaharaProfilePic,
-    },
-    {
-      className: "struktur-pp-wakil",
-      role: "Sekretaris",
-      name: "Koesmayadi",
-      phone: 6281389346460,
-      alt: "Sekretaris",
-      picture: SekretarisProfilePic,
-    },
-    {
-      className: "struktur-pp-wakil",
-      role: "Koordinator Ruko",
-      name: "Sumargono",
-      phone: 6281314051844,
-      alt: "Koordinator Ruko",
-      picture: KoordinatorProfilePic,
-    },
-  ];
+  const PengurusRt = pengurus;
 
   return (
     <HashRouter>

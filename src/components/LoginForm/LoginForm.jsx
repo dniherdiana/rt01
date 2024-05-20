@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "./loginForm.css";
+import userDetail from "../../db/userdetail";
 
 export default function LoginForm({ onLoad, userType }) {
-  const userDetails = {
-    rt: { username: "adminrt_01", password: "wargart_01" },
-    ruko: { username: "adminrt_01", password: "ruko_rt01" },
-  };
+  const userDetails = userDetail;
 
   const [userLogin, setUserLogin] = useState({
     username: "",

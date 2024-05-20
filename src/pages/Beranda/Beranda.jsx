@@ -24,7 +24,7 @@ export default function Beranda() {
         </p>
 
         <span className="pengurus-text">
-          <h2> - Pengurus RT01 - </h2>
+          <h2> - Pengurus RT001 - </h2>
         </span>
       </div>
       <Footer />

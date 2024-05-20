@@ -15,7 +15,7 @@ export default function Header() {
       <div className="logo-hideMenu">
         <div id="header-logo">
           <h1 className="header-logo">
-            <span className="bg-logo-rt">RT01</span>
+            <span className="bg-logo-rt">RT001</span>
             <span className="bg-logo-ccr">Cikeas Country Residence</span>
           </h1>
         </div>

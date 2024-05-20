@@ -65,7 +65,10 @@ input {
 }
 
 #login-button:hover {
-  background-color: #ffffff;
+  background-color: #3F2305;
+  color: white;
+  cursor: pointer;
+
 }
 
 @media only screen and (min-width: 300px) and (max-width: 486px) {
