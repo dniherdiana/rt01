@@ -2,14 +2,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <footer
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        padding: "30px 0",
-        alignItems: "flex-end",
-      }}
-    >
+    <footer>
       <div id="footer">
         <p id="footer-style">
           <span className="footer-text">RT001 Website</span>

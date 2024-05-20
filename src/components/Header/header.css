@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding: 15px 0;
+  padding: 10px 0px;
   align-items: center;
   width: 100%;
   background-color: #DFD7BF;
@@ -20,10 +20,9 @@
 
 #header-logo h1 {
   color: #3F2305;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-family: Homenaje;
   font-weight: 500;
-  letter-spacing: -1px;
 }
 
 .header-logo {
@@ -106,7 +105,7 @@ nav li a:hover {
   }
 
   #header-logo h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     transform: scale(0.9, 1.5);
   }
 
@@ -175,29 +174,38 @@ nav li a:hover {
 
 @media only screen and (max-width: 343px) {
   #header-logo h1 {
-    font-size: 1.2rem;
+    font-size: .9rem;
+    transform: scale(0.9, 1.8);
   }
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 1114px) */
 @media only screen and (min-width: 839px) and (max-width: 1114px) {
   #header-logo h1 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     transform: scale(0.9, 1.2);
   }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 808px) {
   #header-logo h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transform: scale(0.9, 1.4)
+  }
+
+  .navbar ul a {
+    padding: 0 5px;
+    font-size: 1rem;
   }
 }
 
-/* @media only screen and (min-width: 799px) and (max-width: 835px) */
 @media only screen and (min-width: 809px) and (max-width: 838px) {
   #header-logo h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  .navbar ul a {
+    padding: 0 5px;
+    font-size: 1rem;
   }
 
   .struktur-content {
