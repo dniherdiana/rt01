@@ -106,8 +106,8 @@ nav li a:hover {
   }
 
   #header-logo h1 {
-    font-size: 1.4rem;
-    /* edited */
+    font-size: 1.3rem;
+    transform: scale(0.9, 1.5);
   }
 
   .logo-hideMenu {
@@ -175,8 +175,7 @@ nav li a:hover {
 
 @media only screen and (max-width: 343px) {
   #header-logo h1 {
-    font-size: 1.3rem;
-    /* edited */
+    font-size: 1.2rem;
   }
 }
 
@@ -184,12 +183,14 @@ nav li a:hover {
 @media only screen and (min-width: 839px) and (max-width: 1114px) {
   #header-logo h1 {
     font-size: 1.9rem;
+    transform: scale(0.9, 1.2);
   }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 808px) {
   #header-logo h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    transform: scale(0.9, 1.4)
   }
 }
 
