@@ -16,11 +16,12 @@
 .header-sticky {
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 #header-logo h1 {
   color: #3F2305;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: Homenaje;
   font-weight: 500;
 }
@@ -74,12 +75,9 @@ nav ul {
 
 nav li a:hover {
   color: #3F2305;
-  transition: 0.2s ease-in;
-  background: rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease-in;
   border-radius: 15px;
-  box-shadow: 0 4px 30px #3f230552;
-  -webkit-backdrop-filter: blur(0px);
-  backdrop-filter: blur(0px);
+  border: 1px #3F2305 solid;
   width: -moz-fit-content;
   /* For Firefox 3+ */
   width: fit-content;
@@ -101,7 +99,7 @@ nav li a:hover {
     display: grid;
     text-align: center;
     justify-content: stretch;
-    padding: 20px 10px;
+    padding-right: 20px;
   }
 
   #header-logo h1 {
@@ -127,7 +125,6 @@ nav li a:hover {
     flex-direction: column;
     padding-left: 10px;
     font-size: 1.2rem;
-    font-weight: 200;
   }
 
   .dropdown:hover .dropdown-content {
@@ -159,8 +156,7 @@ nav li a:hover {
   .hide-menu {
     display: block;
     background-color: #DFD7BF;
-    transition: all 0.3s ease-in-out;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .nav-wrapper {
@@ -181,7 +177,7 @@ nav li a:hover {
 
 @media only screen and (min-width: 839px) and (max-width: 1114px) {
   #header-logo h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     transform: scale(0.9, 1.2);
   }
 }

@@ -15,7 +15,7 @@ footer {
 }
 
 .design-text {
-  background: rgba(255, 255, 255, 0.705);
+  background: transparent;
   padding: 5px 10px;
   font-style: italic;
   font-size: 1.2rem;
@@ -38,10 +38,22 @@ footer {
 
   .design-text,
   .footer-text {
+    font-size: .8rem;
+  }
+
+  footer {
+    transform: scale(1, 1.5);
+  }
+}
+
+@media only screen and (max-width: 321px) {
+
+  .design-text,
+  .footer-text {
     font-size: .7rem;
   }
 
   footer {
-    transform: scale(0.9, 1.2);
+    transform: scale(0, 8, 1.3);
   }
 }
