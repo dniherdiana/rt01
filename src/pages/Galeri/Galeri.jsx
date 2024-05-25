@@ -5,6 +5,7 @@ import rondaRamadhan from "../../db/img/ronda-ramadhan.json";
 import kerjaBaktiRuko from "../../db/img/kerjaBakti-ruko.json";
 import nobarTimnas from "../../db/img/nobar-timnas.json";
 import touringVilla from "../../db/img/touring-villa.json";
+import PeriksaMata from "../../db/img/periksa-mata.json";
 
 export default function Galeri() {
   return (
@@ -21,6 +22,10 @@ export default function Galeri() {
           images={nobarTimnas}
         />
         <GallerySection title="Touring (Villa Diefa)" images={touringVilla} />
+        <GallerySection
+          title="Periksa mata gratis( Kurnia Optik)"
+          images={PeriksaMata}
+        />
       </div>
       <Footer />
     </div>
