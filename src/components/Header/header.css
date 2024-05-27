@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding: 10px 0px;
+  padding: 20px 0px;
   align-items: center;
   width: 100%;
   background-color: #DFD7BF;
@@ -104,7 +104,7 @@ nav li a:hover {
 
   #header-logo h1 {
     font-size: 1.2rem;
-    transform: scale(0.9, 1.5);
+    transform: scale(0.8, 1.4);
   }
 
   .logo-hideMenu {
@@ -117,7 +117,7 @@ nav li a:hover {
   .dropdown .disable-link {
     pointer-events: none;
     cursor: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .dropdown-content {
@@ -156,7 +156,7 @@ nav li a:hover {
   .hide-menu {
     display: block;
     background-color: #DFD7BF;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .nav-wrapper {
@@ -171,37 +171,20 @@ nav li a:hover {
 @media only screen and (max-width: 343px) {
   #header-logo h1 {
     font-size: .9rem;
-    transform: scale(0.9, 1.8);
+    transform: scale(0.9, 1.5);
   }
 }
 
-@media only screen and (min-width: 839px) and (max-width: 1114px) {
+/* @media only screen and (min-width: 767px) and (max-width: 808px) { */
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
   #header-logo h1 {
-    font-size: 1.4rem;
-    transform: scale(0.9, 1.2);
-  }
-}
-
-@media only screen and (min-width: 767px) and (max-width: 808px) {
-  #header-logo h1 {
-    font-size: 1.4rem;
-    transform: scale(0.9, 1.4)
+    font-size: 1.2rem;
+    transform: scale(0.9, 1.4);
   }
 
   .navbar ul a {
     padding: 0 5px;
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (min-width: 809px) and (max-width: 838px) {
-  #header-logo h1 {
-    font-size: 1.6rem;
-  }
-
-  .navbar ul a {
-    padding: 0 5px;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .struktur-content {
