@@ -1,28 +1,10 @@
-import PropTypes from "prop-types";
 import "./strukturOrganisasi.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import WaIcon from "../../assets/images/icons8-whatsapp.svg";
+import pengurus from "../../db/pengurusRt";
 
-StrukturOrganisasi.propTypes = {
-  pengurus: PropTypes.arrayOf(
-    PropTypes.shape({
-      role: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      phone: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-        .isRequired,
-      alt: PropTypes.string.isRequired,
-      picture: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-};
-
-export default function StrukturOrganisasi(props) {
-  const { pengurus } = props;
-  if (!pengurus) {
-    return null;
-  }
-
+export default function StrukturOrganisasi() {
   const listPos = pengurus.map((data, index) => (
     <div key={index} className={data.className}>
       <img src={data.picture} alt={data.alt} />
