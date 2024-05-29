@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding: 20px 0px;
+  padding: 10px 0px;
   align-items: center;
   width: 100%;
   background-color: #DFD7BF;
@@ -75,9 +75,9 @@ nav ul {
 
 nav li a:hover {
   color: #3F2305;
+  background-color: #f5f5f583;
+  border-radius: 5px;
   transition: 0.3s ease-in;
-  border-radius: 15px;
-  border: 1px #3F2305 solid;
   width: -moz-fit-content;
   /* For Firefox 3+ */
   width: fit-content;
