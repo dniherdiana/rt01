@@ -34,18 +34,17 @@
 
   .image-container img {
     padding: 0 15px;
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 350px;
     margin-bottom: 30px;
   }
 
   .image-container {
     height: 100%;
-    /* margin: 55px 0; */
   }
 
   .welcome-text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: black;
     padding: 0 45px;
   }
