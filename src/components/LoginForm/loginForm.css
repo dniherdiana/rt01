@@ -16,6 +16,10 @@ fieldset {
   border-radius: 5px;
 }
 
+#form-fieldset legend {
+  margin: 0 auto;
+}
+
 #login-form {
   color: #3F2305;
   display: flex;
