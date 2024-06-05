@@ -4,6 +4,7 @@
   padding-top: 100px;
   margin: auto;
   min-height: 90vh;
+  width: 100vw;
 }
 
 .image-container img {
