@@ -68,7 +68,8 @@
 #role-name-bg {
   border: 2px solid #3F2305;
   width: -moz-fit-content;
-  width: fit-content;
+  /* width: fit-content; */
+  width: 143px;
   height: 65px;
   margin: 10px auto;
   border-radius: 5px;
