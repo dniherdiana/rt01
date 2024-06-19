@@ -34,13 +34,13 @@ export default function Galeri() {
 
 function GallerySection({ title, images }) {
   return (
-    <div className={title.toLowerCase().replace(/ /g, "-")}>
-      <h1 className="title-section">{title}</h1>
+    <details className={title.toLowerCase().replace(/ /g, "-")}>
+      <summary className="title-section">{title}</summary>
       <figure className="img">
         {images.map((item, index) => (
           <img key={index} src={item.src} alt={item.alt} />
         ))}
       </figure>
-    </div>
+    </details>
   );
 }

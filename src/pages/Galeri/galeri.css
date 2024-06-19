@@ -7,6 +7,7 @@
   font-size: 1.6rem;
   font-weight: 300;
   font-family: Poppins, 'Times New Roman';
+  cursor: pointer;
 }
 
 figure {
@@ -26,9 +27,9 @@ figure.img img {
 
 @media screen and (max-width: 768px) {
   .title-section {
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: 5px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
   }
 
   figure.img img {
@@ -51,7 +52,7 @@ figure.img img {
 
 @media only screen and (max-width: 321px) {
   .title-section {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   figure.img img {
