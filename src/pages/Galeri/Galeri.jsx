@@ -8,24 +8,36 @@ import touringVilla from "../../db/img/touring-villa.json";
 import PeriksaMata from "../../db/img/periksa-mata.json";
 
 export default function Galeri() {
+  const sections = [
+    {
+      title: "Kerja bakti area Ruko CCR",
+      images: kerjaBaktiRuko,
+    },
+    {
+      title: "Ronda Ramadhan",
+      images: rondaRamadhan,
+    },
+    {
+      title: "Nobar Timnas vs Uzbekistan",
+      images: nobarTimnas,
+    },
+    {
+      title: "Touring (Villa Diefa)",
+      images: touringVilla,
+    },
+    {
+      title: "Periksa mata gratis( Kurnia Optik)",
+      images: PeriksaMata,
+    },
+  ];
+
   return (
     <div id="galeri">
       <Header />
       <div id="gallery-content">
-        <GallerySection
-          title="Kerja bakti area Ruko CCR"
-          images={kerjaBaktiRuko}
-        />
-        <GallerySection title="Ronda Ramadhan" images={rondaRamadhan} />
-        <GallerySection
-          title="Nobar Timnas vs Uzbekistan"
-          images={nobarTimnas}
-        />
-        <GallerySection title="Touring (Villa Diefa)" images={touringVilla} />
-        <GallerySection
-          title="Periksa mata gratis( Kurnia Optik)"
-          images={PeriksaMata}
-        />
+        {sections.map((section, index) => (
+          <GallerySection key={index} {...section} />
+        ))}
       </div>
       <Footer />
     </div>
