@@ -12,6 +12,10 @@ import makanMakan from "../../db/img/makan-makan.json";
 export default function Galeri() {
   const sections = [
     {
+      title: "Periksa mata gratis( Kurnia Optik)",
+      images: PeriksaMata,
+    },
+    {
       title: "Kerja bakti area Ruko CCR",
       images: kerjaBaktiRuko,
     },
@@ -26,10 +30,6 @@ export default function Galeri() {
     {
       title: "Touring (Villa Diefa)",
       images: touringVilla,
-    },
-    {
-      title: "Periksa mata gratis( Kurnia Optik)",
-      images: PeriksaMata,
     },
     {
       title: "Qurban 1444H",
