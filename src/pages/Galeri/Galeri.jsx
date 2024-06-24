@@ -6,6 +6,8 @@ import kerjaBaktiRuko from "../../db/img/kerjaBakti-ruko.json";
 import nobarTimnas from "../../db/img/nobar-timnas.json";
 import touringVilla from "../../db/img/touring-villa.json";
 import PeriksaMata from "../../db/img/periksa-mata.json";
+import qurban1444H from "../../db/img/qurban1444H.json";
+import makanMakan from "../../db/img/makan-makan.json";
 
 export default function Galeri() {
   const sections = [
@@ -28,6 +30,14 @@ export default function Galeri() {
     {
       title: "Periksa mata gratis( Kurnia Optik)",
       images: PeriksaMata,
+    },
+    {
+      title: "Qurban 1444H",
+      images: qurban1444H,
+    },
+    {
+      title: "Makan-makan",
+      images: makanMakan,
     },
   ];
 
