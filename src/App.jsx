@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Beranda from "./pages/Beranda/Beranda";
 import StrukturOrganisasi from "./pages/StrukturOrganisasi/StrukturOrganisasi";
